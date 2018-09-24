@@ -3,6 +3,7 @@ public Lead myLead{get; set;}
 
     public MyDuplicateLeadClass(ApexPages.StandardController controller) {
     myLead= new Lead();
+        system.debug('Test Commit - 5:48 PM 9th Aug');
     }
     public PageReference duplicateLeadCheck()
     {
