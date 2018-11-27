@@ -7,7 +7,7 @@ public class InsertLeadClass {
             system.debug('The error is '+ilce.getMessage()); //give the friendly error message
              system.debug('The cause is '+ilce.getCause()); //give the cause of the exception
             system.debug('The Line number is '+ilce.getLineNumber()); // give the line number at which the exception occurred
-            system.debug('test commit-2');
+            system.debug('test commit-org comparator 27 11 2018');
         }
     }
     public static void insertLeads(){
