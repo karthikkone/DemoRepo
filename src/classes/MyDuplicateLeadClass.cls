@@ -11,6 +11,7 @@ public Lead myLead{get; set;}
     if(existingLeads.size()>0)
     {
     myLead.Email.addError('Lead already Exists');
+    System.debug('added log');
     }
     return null;
     }

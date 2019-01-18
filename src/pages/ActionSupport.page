@@ -11,5 +11,6 @@
                            startText=" (incrementing...)" 
                            stopText=" (done)"/>
                            <p> test commit </p>
+			   <p>some other text</p>
     </apex:form>
 </apex:page>
